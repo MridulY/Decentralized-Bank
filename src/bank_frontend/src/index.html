@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>QuadB Bank</title>
+    <link type="text/css" rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+      <div class="container">
+        <img src="bank_logo.png" alt="quadB logo" width="300"/>
+        <h1>Available Balance: <span id="value">0</span> ₹</h1>
+        <h1>Available Balance After SI: <span id="simple">0</span> ₹</h1>
+        <h1>Your PLI Return Will Be: <span id="pli">0</span> ₹</h1>
+        <div class="divider"></div>
+        <form action="#">
+          <h2>Enter The Amount For PLI</h2>
+          <input id="pli_amount" type="number" name="pli_topup" value=""/>
+          <h2>Enter The Intrest Rate For PLI(%)</h2>
+          <input id="pli_rate" type="number" name="pli_intrest" value=""/>
+          <h2>Enter The NO. Of Years For PLI</h2>
+          <input id="pli_time" type="number" name="pli_year" value=""/>
+          <input id="submit-btn" type="submit" value="Calculate"/>
+          <h2>Amount To Be Added</h2>
+          <input id="input-amount" type="number" name="topup" value=""/>
+          <h2>Amount To Withdraw</h2>
+          <input id="withdrawl-amount" type="number" name="withdraw" value=""/>
+          <input id="submit-btn" type="submit" value="Complete Transaction"/>
+        </form>
+      </div>
+  </body>
+</html>
