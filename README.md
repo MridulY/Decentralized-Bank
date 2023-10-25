@@ -39,5 +39,5 @@ To run this project, you'll need the following:
 3. Connect your wallet to the application, and you can start using the decentralized banking services.
 
 
-![Alt Text](./src/loan_frontend/assets/Screenshot.png)
+![Alt Text](./src/bank_frontend/assets/Screenshot.png)
 
